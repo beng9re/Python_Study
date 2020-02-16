@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+
+def main():
+    # 문자열 : '''  ''' , """ """, -r 로도 이스이프가 가능하다
+    s = '한줄'
+    s3 = '''세줄'''
+    s4 = """네줄"""
+
+    iscape =  'asd\'\'a'
+
+
+    print s
+    print s3
+    print s4
+    print iscape
+
+    print ('r asdadad')
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
