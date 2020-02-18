@@ -4,7 +4,7 @@
 
 def solution(triangle):
     answer = 0
-
+    '''
     answer = triangle[0][0];
     currentIdnex = 0
     for i in triangle: #i 높이
@@ -13,11 +13,11 @@ def solution(triangle):
 
         else :
             answer += max(triangle[i][currentIdnex-1],triangle[i][currentIdnex])
+    '''
+    ### 기본 원리 모든수의 누계를 구해서 맥스 값을 구한다
 
 
-
-
-    return answer
+    return triangle[-1]
 
 
 if __name__ == '__main__':
