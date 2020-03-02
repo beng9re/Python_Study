@@ -16,7 +16,7 @@ class Solution:
 
 
     def convert(self, s: str, numRows: int) -> str:
-        array = []
+        array = [] 
 
         for a in range(numRows):
             array.append([])
